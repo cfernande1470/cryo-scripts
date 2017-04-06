@@ -10,7 +10,7 @@ do
 	while grep Repeat ${f}_log.out
 	do
 	count=$num
-	count--
+	((count--))
 	/usr/local/motioncor2/MotionCor2-10-19-2016 -InMrc $f -OutMrc sum/$f -Patch $count $count -FmDose $dose > ${f}_log.out
 	done
 
