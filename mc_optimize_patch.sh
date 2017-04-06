@@ -11,7 +11,7 @@ do
 	do
 	count=$num
 	count--
-	/usr/local/motioncor2/MotionCor2-10-19-2016 -InMrc $f -OutMrc sum/$f -Patch $count $count -FmDose $dose 
+	/usr/local/motioncor2/MotionCor2-10-19-2016 -InMrc $f -OutMrc sum/$f -Patch $count $count -FmDose $dose > ${f}_log.out
 	done
 
 done
