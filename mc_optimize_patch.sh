@@ -1,3 +1,5 @@
+#!/bin/bash
+
 read -p "Patch number `echo $'\n> '`" num
 read -p "Dose per frame `echo $'\n> '`" dose
 read -p "Pix size `echo $'\n> '`" pix
